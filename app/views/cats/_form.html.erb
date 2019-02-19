@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <%= simple_form_for(cat) do |f| %>
+          <%= f.input :name %>
+          <%= f.input :address %>
+          <%= f.input :found_at, as: :date %>
+          <%= f.button :submit  %>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+
